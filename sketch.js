@@ -134,12 +134,12 @@ function mouseDragged(){
 
 
 function mouseReleased(){
-    SlingShot.fly();
+    Sling.fly();
 }
 
 function keyPressed(){
 if(keyCode===32){
-	SlingShot.attach(player.body);
+	Sling.attach(player.body);
 
 
 }
