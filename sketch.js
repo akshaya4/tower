@@ -8,10 +8,12 @@ const Constraint = Matter.Constraint;
 var base1,base2,startbase;
 var box,box1,box2,box3,box4,box5,box6,box7,box8,box9,box10,box11,box12,box13,box14,box15,box16,box17,box18,box19,box20,box21,box22,box23,box24,box25,box26,box27,box28,box29,box30;
 var player,Sling;
+var polygon_img;
 
 function preload()
 {
-	
+getBackgroundImage();
+  polygon_img=loadImage("images/polygon.png");	
 }
 
 function setup() {
